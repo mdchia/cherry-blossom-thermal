@@ -1,0 +1,7 @@
+#!/bin/bash
+
+php $(dirname $0)/flir.php --resize 100% --pal $(dirname $0)/tint.png -i $1 -o $(basename ${1%.*}).png
+rm palette.png
+rm gradient.png
+rm ir.png
+rm raw.png
