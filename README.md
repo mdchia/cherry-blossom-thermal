@@ -4,6 +4,14 @@ Wrapper for https://github.com/joshuapinter/flir
 
 Convert FLIR images to a nice pink gradient.
 
+Usage: 
+
+Place repo directory in PATH, and then
+
+```
+cherrify <radiometric FLIR JPG path>
+```
+
 Gradient values of tint.png:
 
 ```css
